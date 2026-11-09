@@ -37,7 +37,7 @@ tRPC handles the request: routing, batching, streaming (`httpBatchStreamLink`, s
 
 Through [NPM](https://www.npmjs.com) as [@chubbyts/chubbyts-http-trpc][1].
 
-```ts
+```sh
 npm i @chubbyts/chubbyts-http-trpc@^1.0.0 @trpc/server@^11.0.0
 ```
 
@@ -103,8 +103,8 @@ stack trace of errors to the response.
 
 ### With a router
 
-Register the handler with a route that matches every path below `endpoint`, for `GET` (queries) and `POST`
-(mutations, batches with a body). An exact `/trpc` route would never match a procedure, because the procedure path is
+Register the handler with a route that matches every path below `endpoint`, for `GET` (queries,
+subscriptions) and `POST` (mutations). An exact `/trpc` route would never match a procedure, because the procedure path is
 part of the path.
 
 With [@chubbyts/chubbyts-framework][9] and [@chubbyts/chubbyts-framework-router-path-to-regexp][10]:
