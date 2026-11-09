@@ -50,8 +50,12 @@
     "@trpc/server": "^11.0.0"
   },
   "devDependencies": {
+    "@chubbyts/chubbyts-framework": "^4.2.0",
+    "@chubbyts/chubbyts-framework-router-path-to-regexp": "^4.1.1",
     "@chubbyts/chubbyts-function-mock": "^2.4.0",
     "@chubbyts/chubbyts-http": "^3.0.0",
+    "@chubbyts/chubbyts-http-cors": "^3.1.0",
+    "@chubbyts/chubbyts-http-node": "^1.1.2",
     "@chubbyts/chubbyts-oxlint": "^1.0.2",
     "@stryker-mutator/core": "^10.0.0",
     "@stryker-mutator/vitest-runner": "^10.0.0",
