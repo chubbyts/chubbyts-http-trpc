@@ -110,7 +110,7 @@ part of the path.
 With [@chubbyts/chubbyts-framework][9] and [@chubbyts/chubbyts-framework-router-path-to-regexp][10]:
 
 ```sh
-npm i @chubbyts/chubbyts-framework@^4.2.0 @chubbyts/chubbyts-framework-router-path-to-regexp@^4.1.1
+npm i @chubbyts/chubbyts-framework@^4.2.1 @chubbyts/chubbyts-framework-router-path-to-regexp@^4.2.0
 ```
 
 ```ts

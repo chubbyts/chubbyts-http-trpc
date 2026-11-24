@@ -1,9 +1,20 @@
 allowBuilds:
   unrs-resolver: true
 minimumReleaseAgeExclude:
-  - '@chubbyts/chubbyts-http-fetch@1.0.0'
-  - '@chubbyts/chubbyts-http-types@4.0.0'
-  - '@chubbyts/chubbyts-http@3.0.0'
+  - '@chubbyts/chubbyts-http-fetch@1.0.1'
+  - '@chubbyts/chubbyts-http-types@4.3.1'
+  - '@chubbyts/chubbyts-http@3.2.1'
+  - '@chubbyts/chubbyts-framework@4.2.1'
+  - '@chubbyts/chubbyts-framework-router-path-to-regexp@4.2.0'
+  - '@chubbyts/chubbyts-function-mock@2.4.1'
+  - '@chubbyts/chubbyts-http-cors@3.1.1'
+  - '@chubbyts/chubbyts-http-node@1.2.1'
+  - '@chubbyts/chubbyts-oxlint@1.0.3'
+  - '@chubbyts/chubbyts-dic-config-factory@1.1.1'
+  - '@chubbyts/chubbyts-dic-types@2.4.1'
+  - '@chubbyts/chubbyts-http-error@3.6.1'
+  - '@chubbyts/chubbyts-log-types@3.4.2'
+  - '@chubbyts/chubbyts-throwable-to-error@2.4.2'
 packageExtensions:
   '@stryker-mutator/core':
     dependencies:
